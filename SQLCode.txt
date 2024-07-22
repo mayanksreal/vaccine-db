@@ -1,0 +1,12 @@
+shell
+pip install mysql-connector-python
+
+mysql> create database vaccine;
+
+mysql> create table vaccination( name VARCHAR(30) NOT NULL,
+    -> status VARCHAR(30) NOT NULL,
+    -> date DATE,
+    -> EMPLOYEEID INT NOT NULL,
+    -> PRIMARY KEY (employeeid));
+
+
