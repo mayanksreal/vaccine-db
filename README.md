@@ -49,3 +49,17 @@ create table vaccination( name VARCHAR(30) NOT NULL,
     password="PASSWORD", #ex. pw
 
 ```
+
+## Preview
+
+1. Adding a new record  
+   <p align="center">
+     <img src="https://github.com/mayanksreal/vaccine-db/blob/main/preview/add.gif" width="800" />
+   </p>
+
+2. Deleting a record  
+   <p align="center">
+     <img src="https://github.com/mayanksreal/vaccine-db/blob/main/preview/del.gif" width="800" />
+   </p>
+
+
