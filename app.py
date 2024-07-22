@@ -36,7 +36,7 @@ def gui():
     #slate blue box
 
     def about():
-        messagebox.showinfo('About VaxCheck','VaxCheck has been developed by Mayank Sharma as year-end school project under the guidance of Mrs. Ranjana Gandhi. VaxCheck helps keeps a track of vaccination status of your Organization/School')
+        messagebox.showinfo('About VaxCheck','VaxCheck has been developed by Mayank Sharma. VaxCheck helps keeps a track of vaccination status of your organization')
     def support():
         messagebox.showinfo('Contact Us','Write to us at ......')
     
@@ -273,8 +273,9 @@ def gui():
             elif (vac_month < 0):
                 messagebox.showerror('Error','Please Input Correct Date of Vaccination')
                 break
-            elif (vac_year > 2023):
-                messagebox.showerror('Error','Please Input Correct Date of Vaccination')
+            # Optional upper date
+            # elif (vac_year > 2030):
+            #   messagebox.showerror('Error','Please Input Correct Date of Vaccination')
                 break
             elif (vac_year < 2020):
                 messagebox.showerror('Error','Please Input Correct Date of Vaccination')
